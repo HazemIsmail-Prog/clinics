@@ -1,0 +1,90 @@
+
+@media (min-width: 768px){
+    .sidebar .nav-item .nav-link {
+        padding: 0.3rem;
+    }
+}
+
+.sidebar .nav-item .collapse .collapse-inner .collapse-item,
+.sidebar .nav-item .collapsing .collapse-inner .collapse-item {
+    padding: 0.3rem 1rem;
+}
+
+table{
+    /*font-size: 0.8rem;*/
+}
+
+table th,
+table td{
+    vertical-align: middle !important;
+    white-space: nowrap;
+}
+
+table tbody td{
+    color: #000;
+}
+
+.blink_me {
+    animation: blinker .5s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+.scroll-to-top{
+    z-index: 5;
+}
+
+.fa-reply{
+    transform: rotate(180deg);
+}
+
+
+.parent{
+
+}
+
+.child1{
+    padding-left: 40px !important;
+}
+
+.child2{
+    padding-left: 80px !important;
+}
+
+.child3{
+    padding-left: 120px !important;
+}
+
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+.sidebar .nav-item .nav-link span {
+    font-size: 1rem;
+}
+
+.fc-event-title.fc-sticky,
+.fc-v-event .fc-event-time {
+    color: black;
+    font-size: 0.7rem;
+    /*font-weight: bold;*/
+}
+
+.fc-col-header-cell-cushion,
+.fc-timegrid-slot-label-frame.fc-scrollgrid-shrink-frame{
+ color: #000 !important;
+    font-weight: bold;
+}
+
+.fc-scrollgrid-sync-inner{
+    background: #d2d2d2;
+}
+
+

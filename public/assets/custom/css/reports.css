@@ -1,0 +1,125 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    font-family: sans-serif;
+
+}
+
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-danger{
+    color: red;
+}
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.btn{
+    color: black;
+    padding: 4px 10px;
+    border: 1px solid #a4a7ab !important;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.page-footer{
+    position: absolute;
+    width: 1000px;
+    bottom: 0;
+    text-align: right;
+}
+
+.divider {
+    border: 0 !important;
+    height: 30px;
+    clear: both;
+}
+
+.d-none {
+    display: none;
+}
+/*----------------------------------------------------------------------*/
+
+table th {
+    padding: 10px 15px;
+    background: #a0976b;
+    /*background: #6eb0de;*/
+    color: white;
+    border: 1px solid #000;
+}
+
+table tbody td,
+table tbody th,
+table thead th,
+table thead td {
+    font-size: 0.8rem;
+    padding: 5px;
+    border: 1px solid #bfc4c8 !important;
+}
+
+.bordered{
+    border: 1px solid #bfc4c8 !important;
+}
+
+.clinic_name {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 0 !important;
+    height: 15px;
+    padding-left: 0;
+}
+
+.page-title {
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0 !important;
+    height: 20px;
+    padding-left: 0;
+}
+
+.page-info {
+    font-size: 0.7rem;
+    font-weight: bold;
+    border: 0 !important;
+    height: 15px;
+    padding-left: 0;
+}
+
+.account_name {
+    border: 0 !important;
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    padding: 10px 10px;
+    padding-left: 0;
+}
+
+
